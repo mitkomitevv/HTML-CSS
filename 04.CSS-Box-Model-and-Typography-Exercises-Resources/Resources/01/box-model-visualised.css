@@ -1,0 +1,38 @@
+div {
+    border: 1px dashed black;
+    padding: 1.5em;
+    position: relative;
+}
+
+div::before {
+    display: block;
+    position: absolute;
+    top: 0.1em;
+    left: 0.7em;
+}
+
+.margin {
+    background-color: lightsalmon;
+    width: 400px;
+    margin: 5em auto;
+}
+
+.border {
+    background-color: blanchedalmond;
+}
+
+.padding {
+    background-color: lightgreen;
+}
+
+.content {
+    background-color: lightblue;
+    text-align: center;
+}
+
+.margin::before,
+.border::before,
+.padding::before {
+    content: attr(class);
+}
+

@@ -1,0 +1,26 @@
+@media (width <= 600px) {
+    .site-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .site-header > i, h1 {
+        position: inherit;
+    }
+
+    .about {
+        display: flex;
+        align-items: center;
+    }
+
+    .about-header {
+        position: inherit;
+    }
+
+    .gallery-section div.gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

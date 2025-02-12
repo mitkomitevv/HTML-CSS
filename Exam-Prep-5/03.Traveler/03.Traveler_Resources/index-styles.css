@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css2?family=Karla&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    height: 100dvh;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Karla', sans-serif
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+header {
+    background-image: url(images/poster.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: rgba(0, 0, 0, 0.400);
+    background-blend-mode: color;
+}
+
+.nav-wrapper {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1.5em;
+}
+
+.nav-wrapper {
+    max-width: 90%;
+}
+
+.logo-wrapper img {
+    width: 10%;
+}
+
+.logo-wrapper {
+    flex-basis: 70%;
+}
+
+header nav {
+    flex-basis: 30%;
+}
+
+header nav ul {
+    display: flex;
+    gap: 2.3em;
+    font-size: 1.3em;
+}
+
+header nav ul li {
+    display: block;
+    flex: 1 0 auto;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-content {
+    padding: 15em 0 10em 0;
+    text-align: center;
+}
+
+.header-content h1 {
+    font-family: 'Cormorant Infant';
+    font-size: 90px;
+    color: white;
+    font-weight: 900;
+}
+
+.header-content p {
+    color: white;
+    margin-top: 9em;
+}

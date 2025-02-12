@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #fff;
+    margin: 2em auto;
+    max-width: 800px;
+    padding: 1em;
+    border-radius: 3px;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+}
+
+header, main, aside, footer {
+    border: 1px solid grey;
+    border-radius: 3px;
+    margin: 0.5em;
+}
+
+.mainside {
+    display: flex;
+    gap: 0;
+}
+
+.mainside main {
+    flex-grow: 2;
+}
+
+.mainside aside {
+    flex-grow: 1;
+}
+
+.con2 .mainside main {
+    order: 2;
+}

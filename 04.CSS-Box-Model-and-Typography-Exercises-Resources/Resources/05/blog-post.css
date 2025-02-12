@@ -1,0 +1,16 @@
+.container {
+    max-width: 800px;
+    margin: 2em auto;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    padding: 2em;
+}
+
+
+time {
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 25px;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            border: 2px solid blue;
+            display: flex;
+            padding: 1em;
+            max-width: 400px;
+        }
+
+        .container div {
+            border: 2px solid black;
+            padding: 20px;
+            background-color: #eee;
+        }
+
+        .flex-start {
+            justify-content: flex-start;
+        }
+
+        .center {
+            justify-content: center;
+        }
+
+        .flex-end {
+            justify-content: flex-end;
+        }
+
+        .space-between {
+            justify-content: space-between;
+        }
+
+        .space-around {
+            justify-content: space-around;
+        }
+
+        .space-evenly {
+            justify-content: space-evenly;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <h1>justify-content</h1>
+
+    <h2>justify-content: flex-start; (default)</h2>
+    <div class="container flex-start">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+
+    <h2>justify-content: center;</h2>
+    <div class="container center">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+
+    <h2>justify-content: flex-end;</h2>
+    <div class="container flex-end">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+
+    <h2>justify-content: space-between;</h2>
+    <div class="container space-between">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+
+    <h2>justify-content: space-around;</h2>
+    <div class="container space-around">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+
+    <h2>justify-content: space-evenly;</h2>
+    <div class="container space-evenly">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container {
+            border: 2px solid blue;
+            display: flex;
+            padding: 1em;
+            max-width: 300px;
+        }
+
+        .container div {
+            border: 2px solid black;
+            padding: 20px;
+            background-color: #eee;
+            flex-basis: 300px;
+        }
+
+        .shrink-0 div {
+            flex-shrink: 0;
+        }
+
+        .shrink-2nd div {
+            flex-shrink: 0;
+        }
+
+        .shrink-2nd div:nth-child(2) {
+            flex-shrink: 1;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <h1>flex-shrink</h1>
+
+    <h2>flex-shrink: 1; (default)</h2>
+    <div class="container shrink-1">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+
+    <h2>flex-shrink: 0;</h2>
+    <div class="container shrink-0">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+
+    <h2>flex-shrink, shrink 2nd child only</h2>
+    <div class="container shrink-2nd">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+
+</body>
+</html>

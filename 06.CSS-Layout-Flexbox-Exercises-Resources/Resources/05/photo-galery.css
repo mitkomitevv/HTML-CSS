@@ -1,0 +1,49 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.gallery li {
+    flex: 1 1 calc(33% - (2 * 2em));
+    display: flex;
+    border: 6px solid black;
+    border-radius: 0.2em;
+    background-color: #eee;
+    box-shadow: 0 0 0.3em 0 rgb(0, 0, 0);
+    position: relative;
+}
+
+a {
+    display: flex;
+}
+
+figure {
+    padding: 0.7em;
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+}
+
+figure .media {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 1 auto;
+}
+
+span img {
+    border-radius: 0.2em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+}
+
+figcaption {
+    font-size: 14px;
+    color: grey;
+    font-style: italic;
+}

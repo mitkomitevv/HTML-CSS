@@ -1,0 +1,42 @@
+section p {
+    color: darkslategray;
+}
+
+article.highlight + article {
+    background-color: lightcoral;
+}
+
+.main-list > li {
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.special {
+    color: salmon;
+}
+
+li a {
+    text-decoration: none;
+    color: navy;
+}
+
+ul li {
+    padding: 0.3em;
+}
+
+.special + li a {
+    color: green;
+}
+
+h2.trigger ~ p {
+    color: royalblue;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}

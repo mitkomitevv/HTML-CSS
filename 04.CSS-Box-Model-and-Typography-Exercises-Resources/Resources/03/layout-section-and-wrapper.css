@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+header, main, article, footer {
+    display: block;
+    border: 2px solid black;
+    margin: 2em;
+    padding: 2em 6em 2em 6em;
+}
+
+p {
+    border: 2px solid blue;
+    padding: 2em;
+    font-weight: bold;
+}

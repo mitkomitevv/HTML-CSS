@@ -1,0 +1,45 @@
+/* Remove default margin and padding from all elements,
+   and set box-sizing to border-box for easier sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Remove default list styles */
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove default text decorations and inherit color for links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remove default border styles for images and other media */
+img,
+video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Optional: Reset heading and paragraph margins */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+/* Optional: Set a default line-height for the body */
+body {
+    line-height: 1.5;
+}

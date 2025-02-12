@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    background-color: lightgrey;
+}
+
+.card {
+    background-color: white;
+    max-width: 350px;
+    margin: 3em auto;
+}
+
+.media img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.main {
+    margin: 1em 2em 1em 2em;
+}
+
+h3 {
+    margin-bottom: 0.5em;
+}
+
+.footer {
+    margin: 2em 2em 4em 2em;
+    padding-bottom: 1em
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+
+.footer a:hover {
+    color: blue;
+}
+
+.footer p {
+    font-weight: bold;
+}

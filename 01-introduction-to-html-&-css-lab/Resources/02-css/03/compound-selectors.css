@@ -1,0 +1,28 @@
+.text-highlight {
+    color: deepskyblue;
+    font-size: 1.05em;
+}
+
+#special-box {
+    background-color: orange;
+}
+
+.important-item {
+    color:deepskyblue;
+}
+
+.important-item.special-highlight {
+    font-style: italic;
+    color:red;
+    font-weight: bold;
+}
+
+.fancy {
+    color: orange;
+    border-bottom: 1px solid orange;
+}
+
+.fancy.subtitle {
+    color: blue;
+    border-bottom: none;
+}

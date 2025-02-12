@@ -1,0 +1,26 @@
+section {
+    border: 2px solid black;
+    padding: 2em;
+    position: relative;
+}
+
+.item {
+    border: 1px solid black;
+    padding: 0.5em;
+    width: 5em;
+    height: 5em;
+}
+
+.item.relative {
+    position: relative;
+    left: 5em;
+    top: 2em;
+    background: lightgreen;
+}
+
+.item.relabs {
+    position: absolute;
+    left: 4em;
+    top: 4em;
+    background: lightgreen;
+}

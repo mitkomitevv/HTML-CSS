@@ -1,0 +1,28 @@
+h1 {
+    color: red
+}
+
+p {
+    font-size: 20px;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+#main-title {
+    color: blue;
+}
+
+#special-paragraph {
+    font-style: italic;
+}
+
+li {
+    list-style-type: upper-roman;
+    color: green;
+}
+
+#highlighted-div {
+    background-color: pink;
+}

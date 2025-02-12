@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mutliselct.css">
+</head>
+
+<body>
+
+    <h1>Multiselct</h1>
+    <p>This boolean attribute indicates that multiple options can be selected in the list. If it is not specified, then only one option can be selected at a time. When multiple is specified, most browsers will show a scrolling list box instead of a single line dropdown.</p>
+
+    <code>
+        <pre>
+&lt;label for="pet-select">Choose a pet:&lt;/label>
+&lt;select name="pets" id="pet-select" multiple>
+    &lt;option value="">--Please choose an option--&lt;/option>
+    &lt;option value="dog">Dog&lt;/option>
+    &lt;option value="cat">Cat&lt;/option>
+    &lt;option value="hamster">Hamster&lt;/option>
+    &lt;option value="parrot">Parrot&lt;/option>
+    &lt;option value="spider">Spider&lt;/option>
+    &lt;option value="goldfish">Goldfish&lt;/option>
+&lt;/select>
+&lt;i>hold Ctrl/Cmd to select more than one item&lt;/i>
+        </pre>
+    </code>
+
+    <label for="pet-select">Choose a pet:</label>
+    <select name="pets" id="pet-select" multiple>
+        <option value="">--Please choose an option--</option>
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+        <option value="hamster">Hamster</option>
+        <option value="parrot">Parrot</option>
+        <option value="spider">Spider</option>
+        <option value="goldfish">Goldfish</option>
+    </select>
+    <i>hold Ctrl/Cmd to select more than one item</i>
+
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+.container {
+    background-color: #ccc;
+    border: 1px solid #aaa;
+    border-radius: 0.3em;
+    box-shadow: 0 0 0.3em 0 rgb(0, 0, 0, 0.3)
+}
+
+nav ul {
+    display: flex;
+    gap: 0.5em;
+    padding: 0.6em;
+}
+
+nav ul ul {
+    display: none;
+    flex-direction: column;
+    padding: 0.25em 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 18em;
+    z-index: 200;
+    background: #eee;
+}
+
+nav ul ul ul {
+    top: -0.25em;
+    left: 100%;
+}
+
+nav li {
+    display: block;
+    list-style: none outside;
+    position: relative;
+}
+
+nav li li {
+    padding: 0.25em 0.5em;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: darkorange;
+    padding: 0.6em 1em;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    line-height: 1;
+}
+
+nav li:hover > a,
+nav a:hover {
+    background: darkorange;
+    color: #fff;
+}
+
+nav li:hover > a {
+    position: relative;
+    z-index: 300;
+}
+
+nav li:hover > ul {
+    display: flex;
+
+}

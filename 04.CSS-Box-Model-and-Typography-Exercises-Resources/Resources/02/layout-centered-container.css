@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    border: 2px solid green;
+    padding: 2em 0;
+}
+
+.container {
+    padding: 2em;
+    margin: 0 auto;
+    border: 2px solid blue;
+    max-width: 800px;
+}
+
+.header, .main, .footer {
+    border: 2px solid black;
+    text-align: center;
+    padding: 2em;
+}
+
+.header, .main {
+    margin-bottom: 1.5em;
+}

@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    background: #85dcff;
+    height: 100dvh;
+}
+
+.container {
+    display: flex;
+    width: 1090px;
+    height: 613px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2.5em;
+}
+
+.content {
+    flex-basis: 60%
+}
+
+.image-wrapper {
+    flex-basis: 35%;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: auto;
+    box-shadow: 4px 4px 10px black;
+}
+
+.content h1 {
+    font-size: 3em;
+    max-width: 80%;
+    margin-bottom: 2rem;
+}
+
+.content p {
+    padding-right: 1em;
+    opacity: 80%;
+}
+
+.button-wrapper {
+    margin-top: 2.5em;
+}
+
+.button-wrapper a:first-child,
+.button-wrapper a:last-child {
+    text-decoration: none;
+    color: black;
+    padding: 1em 2em;
+    border-radius: 0.2em;
+
+}
+
+.button-wrapper a:first-child {
+    background-color: #42aa59;  
+    border: 2px solid black;
+    margin-right: 0.5em;
+    color: #333;
+}
+
+.button-wrapper a:first-child:hover {
+    background-color: black;
+    color: white;
+}
+
+.button-wrapper a:last-child {
+    background-color: white;
+    color: #333;
+}
+
+

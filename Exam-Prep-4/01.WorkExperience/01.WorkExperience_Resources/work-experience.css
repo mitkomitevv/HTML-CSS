@@ -1,0 +1,137 @@
+@import url(https://fonts.googleapis.com/css2?family=Margarine&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: Margarine, sans-serif;
+}
+
+body {
+    min-height: 100dvh;
+    background-color: #fff0e4;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 7em auto;
+    display: flex;
+    gap: 0.7em
+}
+
+.container .info,
+.container aside {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.container .info {
+    flex-basis: 35%;
+    padding: 1em;
+}
+
+.container aside {
+    flex-basis: 65%;
+}
+
+.info h2 {
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+
+.info section:first-child div {
+    display: flex;
+    align-items: center;
+    font-size: 0.8em;
+    gap: 1em;
+}
+
+.info section:first-child div:not(:last-child) {
+    margin-bottom: 1em;
+}
+
+.info section:first-child div i {
+    color: #2991e6;
+}
+
+.info section:first-child div:nth-of-type(even) i {
+    font-size: 0.7em;
+}
+
+hr {
+    color: #ccc;
+    margin: 1em 0;
+}
+
+.skills div {
+    margin-bottom: 1em;
+}
+
+.skills div h5 {
+    margin-bottom: 1rem;
+    font-weight: 500;
+    font-size: 0.8em;
+}
+
+.skills div p {
+    font-size: 0.7em;
+    background: #2991e6;
+    border-radius: 2em;
+    color: white;
+    text-align: center;
+}
+
+.skills div:nth-of-type(1) p {
+    width: 90%
+}
+
+.skills div:nth-of-type(2) p {
+    width: 80%;
+}
+
+.skills div:nth-of-type(3) p {
+    width: 75%
+}
+
+.skills div:nth-of-type(4) p {
+    width: 50%;
+}
+
+
+aside {
+    padding: 3em 1.5em;
+}
+
+aside h2 {
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 1.5em;
+}
+
+aside h3 {
+    font-size: 1em;
+    opacity: 55%;
+    margin-bottom: 0.6em;
+}
+
+aside article p:nth-of-type(1) {
+    color: #2991e6;
+    font-size: 0.85em;
+    margin-bottom: 1em;
+}
+
+aside article p:last-child {
+    font-size: 0.75em;
+}
+
+/* aside article:last-child {
+    margin-bottom: 1em;
+} */
+
+
