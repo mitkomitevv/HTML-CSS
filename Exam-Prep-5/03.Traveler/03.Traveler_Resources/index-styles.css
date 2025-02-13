@@ -6,7 +6,9 @@
     padding: 0;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: inherit;
 }
 
@@ -16,13 +18,16 @@ body {
 
 html {
     box-sizing: border-box;
-    font-size: 18px;
-    font-family: 'Karla', sans-serif
+    font: 18px/1.5 'Karla', sans-serif
 }
 
 img {
     width: 100%;
     height: auto;
+}
+
+h1 {
+    font-family: 'Cormorant Infant';
 }
 
 header {
@@ -38,7 +43,7 @@ header {
     margin: 0 auto;
     justify-content: space-around;
     align-items: center;
-    padding-top: 1.5em;
+    padding-top: 30px;
 }
 
 .nav-wrapper {
@@ -60,7 +65,6 @@ header nav {
 header nav ul {
     display: flex;
     gap: 2.3em;
-    font-size: 1.3em;
 }
 
 header nav ul li {
@@ -74,18 +78,165 @@ header nav ul li a {
 }
 
 .header-content {
-    padding: 15em 0 10em 0;
+    padding: 200px 0 120px 0;
     text-align: center;
 }
 
 .header-content h1 {
-    font-family: 'Cormorant Infant';
     font-size: 90px;
     color: white;
+    line-height: 1;
     font-weight: 900;
 }
 
 .header-content p {
     color: white;
-    margin-top: 9em;
+    max-width: 650px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+main .con1 {
+    background-color: #F8F0E9;
+    padding: 2em;
+}
+
+.con1 p,
+.con1 h1 {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.con1 h1 {
+    font-size: 60px;
+    font-style: italic;
+    line-height: 0.8;
+    margin: 3rem auto;
+    color: #352B2A;
+}
+
+.con1 p {
+    color: #352B2A;
+}
+
+main .con2 {
+    background-color: #E14747;
+    color: white;
+    padding: 4em;
+}
+
+.con2 h2 {
+    text-align: center;
+    margin-bottom: 1.5em;
+    font-size: 25px;
+}
+
+.con2 p {
+    max-width: 15em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+main .con3 {
+    background-color: #F8F0E9;
+    padding: 3em;
+    color: #352B2A;
+}
+
+.inner-con3 {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.inner-con3 h1 {
+    font-size: 3.2em;
+    text-align: center;
+    line-height: 1;
+    padding: 1.5em 0;
+}
+
+.inner-con3 p {
+    margin-bottom: 4em;
+    line-height: 1.4;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.btns button {
+    padding: 0.7em 1.5em;
+    background-color: white;
+    border-radius: 0.3em;
+    border: 1px solid black;
+}
+
+.btns button:first-child {
+    margin-bottom: 4em;
+}
+
+.btns button:last-child {
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
+main .con4 {
+    background-color: #E14747;
+    color: white;
+    padding: 5em;
+}
+
+.inner-con4 {
+    max-width: 850px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.inner-con4 h1 {
+    font-size: 3.2em;
+    padding: 1.5em 0;
+}
+
+.inner-con4 p {
+    margin-bottom: 4em;
+}
+
+.inner-con4 span {
+    background: #FAD87A;
+    padding: 0.7em 1em;
+    border-radius: 5em;
+}
+
+.inner-con4 span a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+footer {
+    background-color: #352B2A;
+}
+
+footer div {
+    padding: 3em 7em;
+}
+
+footer img {
+    width: 5%;
+    height: auto;
+    margin-bottom: 1.5em;
+}
+
+footer div p:nth-of-type(1) {
+    color: white;
+    font-size: 14px;
+    max-width: 31%;
+    margin-bottom: 1em;
+}
+
+footer div p:nth-of-type(2) {
+    color: #766968;
+    font-size: 12px;
 }
