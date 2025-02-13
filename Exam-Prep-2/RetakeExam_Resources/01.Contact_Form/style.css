@@ -84,7 +84,7 @@ textarea {
     border: none;
     border-bottom: 1px solid #C2C2C2;
     background-color: #F6F6F6;
-    padding: 0.5em;
+    padding: 0.5em 0;
     margin-bottom: 1em;
 }
 
