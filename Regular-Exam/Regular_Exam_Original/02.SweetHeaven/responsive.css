@@ -1,0 +1,66 @@
+@media (width <= 600px) {
+    .nav-menu {
+        display: none;
+    }
+
+    .nav-burger-menu {
+        padding-top: 5px;
+        font-size: 2em;
+        display: block;
+        order: -1;
+        color: white;
+    }
+
+    .nav-user-btns {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: stretch;
+      }
+
+      .nav-user-btns li button {
+        width: 100%;
+      }
+
+      .content-info-img {
+        display: none;
+      }
+
+      .content-info {
+        display: block;
+        padding: 30px 0;
+        gap: 0;
+      }
+
+      .content-info-welcome {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      .content-info-welcome h2 {
+        font-size: 4em;
+      }
+
+      .content-info-welcome button {
+        width: 80%;
+      }
+
+      .content-services {
+        display: block;
+      }
+
+      .content-services div {
+        width: 100%;
+      }
+
+      .gallery {
+        flex-direction: column;
+      }
+
+      .gallery img {
+        width: 100%;
+        height: auto;
+        background: none;
+      }
+}
